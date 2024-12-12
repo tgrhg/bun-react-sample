@@ -18,15 +18,17 @@ const App = () => {
   )
 }
 
-// これは実際には外部ライブラリ内のコード 
+// これは実際には外部ライブラリ内のコード
 const CountMonitor = (props: { count: number }) => {
   const displayNumber = useState(props.count)
 
-  return (<>
-    <div className="card">
-      現在のカウントは「<>{displayNumber}</>」です。
-    </div>
-  </>)
+  return (
+    <>
+      <div className="card">
+        現在のカウントは「<>{displayNumber}</>」です。
+      </div>
+    </>
+  )
 }
 
 export default App
