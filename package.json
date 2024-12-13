@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
-    "preview": "bunx --bun vite preview"
+    "preview": "bunx --bun vite preview",
+    "integration-test": "bun playwright test"
   },
   "dependencies": {
     "react": "^18.3.1",
