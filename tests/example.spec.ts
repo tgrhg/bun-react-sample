@@ -15,5 +15,5 @@ test('count up', async ({ page }) => {
 
   await page.getByRole('button', { name: 'Count UP!' }).click()
 
-  await expect(page.getByText('現在のカウントは「0」です。')).toBeVisible()
+  await expect(page.getByText('現在のカウントは「1」です。')).toBeVisible()
 })
